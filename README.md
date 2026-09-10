@@ -163,6 +163,41 @@ The Excel dashboard summarizes the major findings from the analysis, including:
 
 ---
 
+
+## Limitations
+
+### Salary Data
+
+Salary information was not consistently disclosed across the analyzed postings.
+
+Salary disclosure was available for:
+
+- Core Data Analytics: 54 of 241 jobs
+- BI / Reporting / MIS: 109 of 215 jobs
+- Adjacent Analytics: 19 of 182 jobs
+
+The salary data also contains some anomalous values. Therefore, salary figures are treated as **indicative rather than representative of the overall market**.
+
+### Dataset Coverage
+
+The analysis represents the job postings available in the source dataset and should not be interpreted as a complete representation of every analytics job available in India.
+
+### Job Classification
+
+Job categories were determined using job titles and related classification rules. Some roles may overlap conceptually between categories, so the classification should be viewed as an analytical framework rather than an official industry classification.
+
+---
+
+## Conclusion
+
+The analysis shows that the Indian analytics hiring market is concentrated around **Core Data Analytics**, with **SQL, Python and Power BI** among the most frequently identified technical skills.
+
+Skill combinations indicate that employers often seek multiple technical capabilities within the same role, while experience requirements vary across analytics segments.
+
+Hiring is also concentrated in major employment hubs, with **location-based roles making up the majority of analyzed postings**.
+
+Overall, the project provides a data-driven view of the **skills, experience requirements, salary availability and hiring patterns** visible in the Indian analytics job market.
+
 ## Project Structure
 
 ```text
@@ -178,3 +213,5 @@ india-analytics-hiring-market-2026/
 │
 └── Dashboard/
     └── dashboard.png
+
+

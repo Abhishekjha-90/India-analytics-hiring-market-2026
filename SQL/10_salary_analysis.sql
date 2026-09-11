@@ -9,7 +9,7 @@ SELECT
 
     ROUND(AVG(minimum_salary), 0) AS avg_min_salary,
 
-    ROUND(AVG(maximum_salary), 0) AS avg_max_salary,
+    ROUND(AVG(maximum_salary), 0) AS avg_max_salary
 
 FROM india_analytics_jobs
 

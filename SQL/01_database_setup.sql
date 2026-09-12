@@ -26,3 +26,12 @@ CREATE TABLE india_jobs_raw (
     minimum_experience TEXT,
     maximum_experience TEXT
 );
+
+---
+### Description
+
+-- This script initializes the MySQL database for the project and creates the `india_jobs_raw` table to store the original Indian job-market dataset.
+
+-- The table contains job-level information including job titles, companies, skills, experience requirements, locations, salary fields, and other posting-level attributes.
+
+-- This raw table serves as the starting point for the subsequent data cleaning, job classification, skill analysis, experience analysis, geographic analysis, company analysis, and salary analysis performed throughout the project.
